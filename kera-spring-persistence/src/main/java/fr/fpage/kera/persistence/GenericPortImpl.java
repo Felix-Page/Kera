@@ -72,4 +72,9 @@ public abstract class GenericPortImpl<
     public void delete(DOMAIN domain) {
         this.repository.delete(this.mapper.toEntity(domain));
     }
+
+    @Override
+    public void deleteById(ID id) {
+        this.repository.deleteById(id);
+    }
 }

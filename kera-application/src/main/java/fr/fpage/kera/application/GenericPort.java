@@ -45,4 +45,9 @@ public interface GenericPort<ID, DOMAIN extends IdentifiableDomain<ID>> {
     ///
     /// @param domain the domain object to delete
     void delete(final DOMAIN domain);
+
+    /// Deletes the domain object with the given identifier.
+    ///
+    /// @param id the identifier of the domain object to delete
+    void deleteById(final ID id);
 }

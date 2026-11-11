@@ -157,7 +157,7 @@ public class Ingredient extends VersionedDomain<UUID> {
 
 ### 2. `application` Layer — UseCases & Interactors (Pure Java)
 
-Your *Interactors* are pure POJOs (no `@Service`) and directly use `GenericPort<ID, DOMAIN>` for standard CRUD operations (`findById`, `findAll`, `findAllById`, `save`, `saveAll`, `delete`):
+Your *Interactors* are pure POJOs (no `@Service`) and directly use `GenericPort<ID, DOMAIN>` for standard CRUD operations (`findById`, `findAll`, `findAllById`, `save`, `saveAll`, `delete`, `deleteById`):
 
 ```java
 public interface CreateIngredientUseCase {
