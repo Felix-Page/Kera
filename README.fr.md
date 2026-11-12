@@ -2,9 +2,14 @@
 
 🇬🇧 **[English](./README.md)** | 🇫🇷 **Français**
 
+[![Java 25](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.org/projects/jdk/25/)
+[![Spring Boot 4.1.2](https://img.shields.io/badge/Spring%20Boot-4.1.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Showcase Demo](https://img.shields.io/badge/Showcase-kera--demo-blue.svg)](https://github.com/Felix-Page/kera-demo)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+
 > **La Clean Architecture en Java / Spring Boot — sans le boilerplate.**
 
-**Kera** (`fr.fpage.kera`) est un framework modulaire léger et un BOM Maven conçu pour mettre en place une **Clean Architecture stricte** sur des projets Java 25 / Spring Boot 4, tout en éliminant **90 % du code répétitif** (ports CRUD, adaptateurs JPA, mappers MapStruct et résolution de références Hibernate).
+**Kera** (`fr.fpage.kera`) est une boîte à outils d'architecture modulaire et un BOM Maven conçus pour mettre en place une **Clean Architecture stricte** sur des projets Java 25 / Spring Boot 4, tout en éliminant **90 % du code répétitif** (ports CRUD, adaptateurs JPA, mappers MapStruct et résolution de références Hibernate).
 
 Il combine délibérément :
 * Les cercles concentriques de la **Clean Architecture** (Robert C. Martin) pour isoler le cœur métier (`domain`) et l'orchestration applicative (`application` : `*UseCase` & `*Interactor`).
@@ -266,3 +271,17 @@ public class InteractorConfig {
 * **Spring Boot** : 4.1.x (Spring Framework 7 / Hibernate 7.4 / Jakarta Persistence 3.2)
 * **MapStruct** : 1.6.x
 * **Maven** : 3.9+
+
+---
+
+## 🍳 Projet de Démonstration (Showcase)
+
+Pour explorer Kera sur une application de démonstration, consultez le dépôt officiel :  
+👉 **[Felix-Page/kera-demo](https://github.com/Felix-Page/kera-demo)**
+
+---
+
+## 📄 Licence
+
+Ce projet est distribué sous licence **Apache 2.0**. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
+
