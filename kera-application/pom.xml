@@ -6,7 +6,7 @@
     <parent>
         <groupId>fr.fpage.kera</groupId>
         <artifactId>kera</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <version>0.1.0</version>
     </parent>
 
     <artifactId>kera-application</artifactId>
